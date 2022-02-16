@@ -19,9 +19,9 @@ export const COLUMNS = [
     sticky: 'left'
   },
   {
-    Header: 'Memory Capacity',
-    Footer: 'Memory Capacity',
-    accessor: 'memory_capacity'
+    Header: 'Storage Capacity',
+    Footer: 'Storage Capacity',
+    accessor: 'phone_manufacturer'
   },
   {
     Header: 'Color',
@@ -77,9 +77,9 @@ export const GROUPED_COLUMNS = [
     Footer: 'Info',
     columns: [
       {
-        Header: 'Memory Capacity',
-        Footer: 'Memory Capacity',
-        accessor: 'memory_capacity'
+        Header: 'Storage Capacity',
+        Footer: 'Storage Capacity',
+        accessor: 'storage_capacity'
       },
       {
         Header: 'Color',

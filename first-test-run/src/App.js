@@ -1,13 +1,20 @@
-import React from 'react'
-import './App.css'
-import { InventoryTable } from './components/InventoryTable'
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Phones from './components/Phones';
 
-function App() {
-  return (
-    <div className='App'>
-      <InventoryTable />
-    </div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <Phones uri="http://localhost:3001/staticPhones" />
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
