@@ -1,12 +1,12 @@
 import React, { useMemo } from 'react'
 import { useTable } from 'react-table'
-import MOCK_DATA from './MOCK_DATA.json'
+// import MOCK_DATA from './MOCK_DATA.json'
 import { COLUMNS } from './columns'
 import './table.css'
 
 export const InventoryTable = () => {
   const columns = useMemo(() => COLUMNS, [])
-  const data = useMemo(() => MOCK_DATA, [])
+  // const data = useMemo(() => MOCK_DATA, [])
 
   const {
     getTableProps,
@@ -17,7 +17,7 @@ export const InventoryTable = () => {
     prepareRow
   } = useTable({
     columns,
-    data
+    // data
   })
 
   return (
@@ -57,3 +57,5 @@ export const InventoryTable = () => {
     </>
   )
 }
+
+export default InventoryTable

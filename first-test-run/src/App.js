@@ -2,19 +2,28 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Phones from './components/Phones';
+import Home from './components/Home'
 
-class App extends Component {
-  render() {
+function App() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Phones uri="http://localhost:3001/staticPhones" />
-      </div>
-    );
-  }
+        <div className='App'>
+            <Home />
+        </div>
+    )
 }
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+//           <img src={logo} className="App-logo" alt="logo" />
+//           <h1 className="App-title">Welcome to React</h1>
+//         </header>
+//         <Phones uri="http://localhost:3001/staticPhones" />
+//       </div>
+//     );
+//   }
+// }
 
 export default App;
