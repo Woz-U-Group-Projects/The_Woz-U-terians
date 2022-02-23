@@ -3,10 +3,9 @@ import './App.css';
 
 function App() {
   return (
+    </div >
     <div className="App">
       <header className="App-header">
-        <h1>Woz-U-terians</h1>
-        <h2>Inventory Tracker App</h2>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacts
+          Learn React
         </a>
       </header>
     </div>

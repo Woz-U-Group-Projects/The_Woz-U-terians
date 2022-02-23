@@ -1,0 +1,52 @@
+.row{
+    
+    padding: 10px;
+    
+}
+div{
+    background-color: black;
+}
+/*h1{
+    color: white;
+
+}
+h3{
+    color: white;
+
+}*/
+p{
+color: white;
+font-size: x-large;
+
+}
+ul{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    font-weight: bolder;
+    text-align: left
+}
+button{
+
+    align-self: center;
+    margin: 25px ;
+}
+.badge{
+color: azure;
+}
+
+.badge1{
+    color: white;
+    background-color: rgba(59, 185, 21, 0.698);
+    
+}
+.badge2{
+    
+    margin: 25px;
+    color: white;
+    background-color: red;
+}
+.badge3{
+    color: white;
+    background-color: Black;
+}
