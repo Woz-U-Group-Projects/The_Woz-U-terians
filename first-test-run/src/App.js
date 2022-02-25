@@ -7,10 +7,10 @@ import { Routes, Route, Link } from 'react-router-dom';
 function App() {
     return (
         <div className="App">
-      <h1>Welcome to React Router!</h1>
+      <h2>Woz-U Terrians Super Awesome Inventory Tracker.</h2>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="test" element={<Test />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </div>
     );
