@@ -59,3 +59,21 @@ export const InventoryTable = () => {
 }
 
 export default InventoryTable
+
+// import React from 'react';
+// import { Routes, Route, Link } from "react-router-dom";
+
+// function InventoryTable() {
+//   return (
+//     <>
+//     <div>InventoryTable Needs to be redone :,D</div>
+//     <div>But at least the links work</div>
+//     <Link to='/test'>Test Page</Link>
+//     <br />
+//     <Link to='/'>Home</Link>    
+
+//     </>
+//   )
+// }
+
+// export default InventoryTable

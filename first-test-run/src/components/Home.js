@@ -6,6 +6,8 @@ function Home() {
     <>
     <h3>You are viewing the "Home" page :D</h3>
     <Link to='/test'>Test Page</Link>
+    <br />
+    <Link to='/inventoryTable'>Inventory Table</Link>    
     </>
   )
 }
