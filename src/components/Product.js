@@ -1,15 +1,16 @@
-//import "./Product.css";
+import "./Product.css";
 
 function Product() {
     return (
         <div>
+
             <div className='Container'>
                 <h1 className='col'>Product Page</h1>
                 <div className='row'>
                     <img className='col-sm-6' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.dczKYPyvxiqGz4Ar5_Zr4AHaHS%26pid%3DApi&f=1' alt='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UHId2ZmOCtgYmSro7uZksQHaEK%26pid%3DApi&f=1' />
                     <p className='col-sm-6'>
                         <h3>Samsung</h3>
-                        <h1>Galaxy A32 5G</h1>
+                        <h1 className="product-h1">Galaxy A32 5G</h1>
                         <br />
                         <div>
                             <button className='button' type="button" class="btn btn-dark btn-lg">64GB</button>

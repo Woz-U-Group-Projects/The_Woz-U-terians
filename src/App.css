@@ -1,3 +1,20 @@
+h1{
+  color: white;
+}
+div{
+  color: white;
+}
+body{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages-medium-large%2Fpath-through-the-woods-inistioge-trish-punch.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+}
+.nav-item{
+  background-color: white;
+}
+.product-h1{
+  color: black;
+}
+
 .App {
   text-align: center;
 }

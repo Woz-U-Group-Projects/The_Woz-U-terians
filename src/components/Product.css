@@ -3,9 +3,7 @@
     padding: 10px;
     
 }
-div{
-    background-color: black;
-}
+
 /*h1{
     color: white;
 
@@ -15,12 +13,12 @@ h3{
 
 }*/
 p{
-color: white;
+color: black;
 font-size: x-large;
 
 }
 ul{
-    background-color: black;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages-medium-large%2Fpath-through-the-woods-inistioge-trish-punch.jpg&f=1&nofb=1');
     color: white;
     margin: 5px;
     font-weight: bolder;

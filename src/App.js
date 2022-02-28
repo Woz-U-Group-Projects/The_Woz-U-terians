@@ -1,4 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
+import './App.css';
+
 
 
 function App() {
@@ -26,12 +28,16 @@ function App() {
             <li className="nav-item">
               <a className="nav-link" href="Input">Input</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="product">Product</a>
+            </li>
 
 
           </ul>
 
         </div>
       </nav>
+      <h1>Inventory Tracker Project</h1>
 
       <Outlet />
 
