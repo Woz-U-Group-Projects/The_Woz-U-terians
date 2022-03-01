@@ -1,0 +1,4 @@
+[{"product_id":1,"phone_model":"iPhone 13 Pro Max","phone_manufacturer":"Apple","memory_capacity":"512 GB","color":"Space Gray","quantity_on_hand":"6", "on_order": "5", "in_transit": "10", "anticipated_sales": "15"},
+{"product_id":2,"phone_model":"S22 Ultra","phone_manufacturer":"Samsung","memory_capacity":"256 GB","color":"Green","quantity_on_hand":"3", "on_order": "6", "in_transit": "5", "anticipated_sales": "10"},
+{"product_id":3,"phone_model":"10Pro T","phone_manufacturer":"One Plus","memory_capacity":"256 GB","color":"Cherry","quantity_on_hand":"3", "on_order": "4", "in_transit": "2", "anticipated_sales": "5"},
+{"product_id":4,"phone_model":"iPhone 13","phone_manufacturer":"Apple","memory_capacity":"128 GB","color":"Red","quantity_on_hand":"9", "on_order": "20", "in_transit": "10", "anticipated_sales": "25"}]

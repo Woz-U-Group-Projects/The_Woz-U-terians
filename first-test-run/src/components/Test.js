@@ -6,7 +6,7 @@ function Test() {
   return (
     <>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">App Shortcuts</a>
+  <a class="navbar-brand" href="#">Site Shortcuts</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,6 +37,7 @@ function Test() {
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> */}
+    <div className='titleText'>Woz-U Terrians Inventory Tracker | FINAL PROJECT</div>
   </div>
 </nav>
     <h3>You are viewing the "Test" page :D</h3>
