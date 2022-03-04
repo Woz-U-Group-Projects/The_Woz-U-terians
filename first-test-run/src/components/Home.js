@@ -36,13 +36,15 @@ function Home() {
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> */}
-    <div className='titleText'>Woz-U Terrians Inventory Tracker | FINAL PROJECT</div>
+    <div className='titleText'>Francisco's Inventory Tracker | FINAL PROJECT</div>
   </div>
 </nav>
-    <h3>You are viewing the "Home" page :D</h3>
-    <Link to='/test'>Test Page</Link>
+    <h3 className='HPTitle'>HOME </h3>
+    <div className='CSFeatures'> Time Clock (coming soon!)</div>
+    <div className='CSFeatures'> Schedule View (coming soon!)</div>
+    <Link to='/test' className='HPLinks'>Test Page</Link>
     <br />
-    <Link to='/inventoryTable'>Inventory Overview</Link>    
+    <Link to='/inventoryTable' className='HPLinks'>Inventory Overview</Link>    
     </>
   )
 }
