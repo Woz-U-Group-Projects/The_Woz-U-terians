@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 
-function InventoryTable() {
+//This is a quick test page to see if router is working properly.  Page CAN be deleted after testing is complete. 
+function Test() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Site Shortcuts</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,9 +25,13 @@ function InventoryTable() {
     <div className='titleText'>Francisco's Inventory Tracker | FINAL PROJECT</div>
   </div>
 </nav>
-      <div>InventoryTable</div>
+    <h3>You are viewing the "Test" page :D</h3>
+    <Link to='/'>Home Page</Link>
+    <br />
+    <Link to='/inventoryTable'>Inventory</Link>
+
     </>
-  );
+  )
 }
 
-export default InventoryTable;
+export default Test

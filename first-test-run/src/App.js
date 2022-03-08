@@ -1,29 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Phones from './components/Phones';
-import Home from './components/Home'
+import Home from './components/Home';
+import Test from './components/Test';
+import InventoryTable from './components/InventoryTable';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <div className='App'>
-            <Home />
-        </div>
-    )
+        <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Test />} />
+        <Route path="/inventoryTable" element={<InventoryTable />} />
+      </Routes>
+    </div>
+    );
 }
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <h1 className="App-title">Welcome to React</h1>
-//         </header>
-//         <Phones uri="http://localhost:3001/staticPhones" />
-//       </div>
-//     );
-//   }
-// }
 
 export default App;

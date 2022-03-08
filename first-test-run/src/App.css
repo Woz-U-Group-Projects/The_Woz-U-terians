@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* HomePage */
+.HPTitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
+/* .HPLinks{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+} */
+
+.CSFeatures{
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  border-style: solid;
+  border-color: grey;
+  text-decoration: underline;
+}
+
+.titleText{
+  color: grey;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
